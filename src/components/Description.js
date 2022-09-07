@@ -21,6 +21,14 @@ const Description = () => {
         the start node is the root ,flooding color 1 will result with this tree
       </p>
       <h2>Example2:</h2>
+      <h4>Input:</h4>
+      <p>[0,1,1,1,2,1,1] , [0,-1] , 2</p>
+      <h4>Output:</h4>
+      <p>[0,2,2,2,2,1,1] </p>
+      <p>
+        the start node the left branch of the root which happen to be 1 ,after
+        flooding the tree with 2 we will get the output result
+      </p>
     </div>
   );
 };
