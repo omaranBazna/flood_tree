@@ -1,11 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 import CodeEditor from "@uiw/react-textarea-code-editor";
-
+import { useState } from "react";
 function App() {
-  const [code, setCode] = React.useState(
-    `function add(a, b) {\n  return a + b;\n}`
-  );
+  const [code, setCode] = useState(`function add(a, b) {\n  return a + b;\n}`);
   return (
     <div className="App">
       <CodeEditor
