@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = () => {
   return (
-    <div>
+    <div className="description">
       <h1>Flooding A Binary Tree </h1>
       <div>
         given a binary tree return a tree after flooding it with a <u>color</u>{" "}
